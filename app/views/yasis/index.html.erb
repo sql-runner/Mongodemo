@@ -1,0 +1,12 @@
+<% if @yasis.empty? %>
+  No YASI here
+<% else %>
+  <ul>
+    <% @yasis.each do |yasi| %>
+      <li>
+        <b><%= yasi.title %></b><br>
+        <%= yasi.description %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

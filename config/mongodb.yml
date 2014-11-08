@@ -1,0 +1,11 @@
+development:
+  server: localhost
+  database: yasi
+
+test:
+  server: localhost
+  database: yasi-test
+
+production:
+  server: localhost
+  database: yasi-production
